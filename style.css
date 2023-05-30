@@ -2,11 +2,14 @@
 
     font-family: 'Inter';
     font-size: 32px;
+    background: #D8DFE8;
 }
 
 /* Encabezado */
 
 header{
+    position: absolute;
+    width: 70%;
     height: 70px;
     padding-left: 30px;
     padding-top: 30px;
@@ -16,52 +19,60 @@ header{
 /* main */
 
 main{
-    position: absolute;
+
     width: 100%;
     height: 90%;
     display: flex;
     justify-content: space-between;
-    background: red;
+
 }
 
 /* Caja de ingreso */
 .ingreso{
     position: absolute;
-    width: 70%;
+    top: 100px;
+    width: 50%;
     height: 80%;
-    padding: 0 0 0 168px;
-    font-family: 'Inter';
+    padding: 48px 20px 0 200px;
 }
+
+/* CAJA DE AREA INGRESO */
 .contendio{
-    position: absolute;
-    width: 800px;
-    left: 300px;
-    top: 20px;
-    height: 800px;
-    border: 1px solid black;
-    border-radius: 24px;
+
+    width: 100%;
+    height: 600px;
+    border: none;
+    border-radius: 15px;
 }
 .contendio::placeholder{
     color: #0A3871;
-    padding-left: 10px;
+    border: none;
 }
+
 
 .advertencia{
-    position: absolute;
-    top: 850px;
-    left: 310px;
-    font-size: 15px;
+    
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    margin: 20px 0;
+    
 }
+
+.advertencia-parrafor{
+    margin-left: 10px;
+    width: 100%;
+    font-size: 15px;
+
+}
+
+
 
 .botones{
-    position: absolute;
-    background: green;
-    top: 900px;
-    left: 300px;
+    width: 80%;
 }
-
 .btn-encriptar{
-    position: absolute;
+
     width: 328px;
     height: 67px;
     border-radius: 24px;
@@ -72,15 +83,126 @@ main{
 }
 
 .btn-desencriptar{
-    position: absolute;
+
     left: 350px;
     width: 328px;
     height: 67px;
     border-radius: 24px;
     background: #D8DFE8;
     color: #0A3871;
-    border: 1px solid #D8DFE8;
+    border: 1px solid #0A3871;
     cursor: pointer;
 }
+
+
+/* salida */
+
+/* Section */
+.salida{
+
+    position: absolute;
+    top: 50px;
+    left: 66%;
+    width: 560px;
+    height: 27em;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+/* Text area setcion sallida */
+.salida-content-area{
+    position: absolute;
+    width: 88%;
+    height: 100%;
+
+
+}
+
+.parrafo-resultado{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Imagen muñeco*/
+.salida-munieco{
+    position: absolute;
+    background: #FFFFFF;
+    margin-top:190PX ;
+
+}
+
+.munieco{
+    background: #FFFFFF;
+}
+
+
+/* Texto */
+.salida-error{
+    position: absolute;
+    margin-top: 500px;
+    text-align: center;
+
+}
+.salida-error h3{
+    font-size: 24px;
+    font-weight: bold;
+    background: #FFFFFF;
+}
+
+.salida-parrafo{
+    background: #FFFFFF;
+    position: absolute;
+    font-size: 24px;
+    margin-top: 560px;
+    text-align: center;
+}
+.salida-parrafo p{
+    background: #FFFFFF;
+}
+
+/* Boton Copia */
+.boton-copia{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    top: 740px ;
+    background: #FFFFFF;
+}
+.btn-copia{
+    left: 350px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.parrafo-resultado{
+    position: absolute;
+}
+
+.salida-h3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.ocultar{
+    display: none;
+}
+
+
+
+
+
 
 

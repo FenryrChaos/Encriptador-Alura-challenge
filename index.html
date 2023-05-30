@@ -19,8 +19,12 @@
         <section class="ingreso">
             <div>
                 <textarea class="contendio" placeholder="Ingrese el texto aqui"></textarea>
-                <p class="advertencia">Solo letras minúsculas y sin acentos</p>
             </div>
+            <div class="advertencia">
+                <img src="img/Group.png" alt="advertencias" class="advertencia-img">
+                <p class="advertencia-parrafor"> Solo letras minúsculas y sin acentos</p>
+            </div>
+        
             <div class="botones">
                 <input type="button" class="btn-encriptar" value="Encriptar">
                 <input type="button" class="btn-desencriptar" value="Desencriptar">
@@ -28,15 +32,22 @@
         </section>
 
         <section class="salida">
-            <div>
-                <textarea class="salida-contenido"></textarea>
+            <div class="salida-content-area">
+                <p class="parrafo-resultado"></p>
             </div>
+            
             <div class="salida-munieco">
                 <img src="img/Muñeco.png" alt="Muñeco" class="munieco">
             </div>
+            <div class="salida-h3">
+                <h3>Ningún mensaje fue encontrado</h3>
+            </div>
+            <div class="salida-parrafo">
+                <p >Ingresa el texto que desees encriptar o <br> desencriptar</p>
+            </div>
             <div class="salida-error">
-                <h3>Ningún mensaje fue <br> encontrado</h3>
-                <p class="salida-parrafo">Ingresa el texto que desees encriptar o <br> desencriptar</p>
+                <h3>Mensaje encriptado:</h3>
+                
             </div>
             <div class="boton-copia">
                 <input type="button" class="btn-copia" value="Copiar">
@@ -44,5 +55,6 @@
         </section>
 
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
